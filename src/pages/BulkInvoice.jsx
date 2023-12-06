@@ -10,7 +10,7 @@ const BulkInvoice = () => {
     return () => {
       dispatch(clearAllBulkInvoice())
     }
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="">
