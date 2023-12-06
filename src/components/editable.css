@@ -1,0 +1,49 @@
+
+
+table{
+  table-layout: auto;
+  overflow-x: scroll;
+}
+.table{
+  overflow-y:scroll;
+
+  display:block;
+}
+
+ th {
+  font-size: 14px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+  background-color: rgba(217, 221, 146, 0.2);
+} 
+
+
+.editableTable-row{
+  border-top: 2px solid lavender;
+
+}
+.editableTable-row-center {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center !important;
+}
+
+.editableTable-input {
+  font-size: 16px;
+  background-color: lightcyan;
+  border: none;
+  width: 91%;
+  padding: 12px 12px;
+
+}
+
+.editableTable-input:hover {
+  background-color: #fffaf3;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+}
+
+.editableTable-input:focus {
+  outline: 1px solid #ccc;
+  border: 1px solid #ccc;
+}
